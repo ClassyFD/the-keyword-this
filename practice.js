@@ -42,10 +42,10 @@
 
 // Write a constructor function, including method definitions, which will make the following function invocations function properly.
 
+ function Car(brand, model, year) {
   this.year = year;
   this.move = 0;
   this.moveCar = function() {
- function Car(brand, model, year) {
   this.brand = brand;
   this.model = model;
     return this.move += 10;
